@@ -1,0 +1,118 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:400,500|Roboto+Slab:400,500&display=swap);
+
+@import url("components/container.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+
+body{
+	background-color: #FFFFFF;
+} 
+
+.header{
+	text-align: center;
+	margin:0px;
+}
+
+h1{
+	color: black;
+	font-family: 'Domine', serif;
+	font-size: 50px;
+	text-align: center;
+}
+
+h2 {
+	color: black;
+	font-family: 'Poppins', serif;
+	font-size: 25px;
+	text-align: center;
+
+}
+
+p{
+	color: black;
+	font-family: 'Poppins', serif;
+	font-size: 15px;
+	text-align: center;
+	font-style: italic;
+
+}
+
+form{
+	font-family: 'Poppins', serif;
+	font-size: 20px;
+	text-align: center;
+} 
+
+input{
+	font-family: 'Poppins', serif;
+	font-size: 15px;
+	width: 800px;
+	text-align: center;
+	margin: 13px;
+	background-color:rgba(240,240,240,0.5);
+	color: #FFFFFF;
+}
+
+button{
+	font-family: 'Poppins', serif;
+	font-size: 15px;
+	border-radius: 5px;
+	color: black;
+}
+
+button:hover{
+	background-color: #FFE4CF;
+}
+
+.container{
+	position:relative;
+}
+
+.btn-saumon {
+	position: absolute;
+	float: right;
+	font-family: 'Poppins', serif;
+	background-color: #FFE4CF;
+	color:black;
+	padding: 15px 30px;
+	border-radius: 5px;
+	width: 170px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.btn-saumon:hover {
+	background-color:#FFFFFF;
+	color:black;
+}
+
+.connect{
+	left: 0;
+}
+
+.create{
+	right: 0;
+}
+
+.banner h1{
+	background-image: url(images/penderie4.jpg);
+	background-size: cover;
+	background-position: center;
+	padding: 140px;
+}
+
+#img-robe {
+margin: 0px auto;
+width: 300px;
+height: 300px;
+
+}
+
+
+
+
+
+
+
+
+
